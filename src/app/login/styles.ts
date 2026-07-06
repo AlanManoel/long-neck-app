@@ -1,6 +1,6 @@
 import { StyleSheet } from "react-native";
-import { COLORS } from "../themes/colors";
-import { FONTS } from "../themes/fonts";
+import { COLORS } from "../../themes/colors";
+import { FONTS } from "../../themes/fonts";
 
 
 export const styles = StyleSheet.create({
@@ -9,6 +9,11 @@ export const styles = StyleSheet.create({
         flex: 1,
         justifyContent: "center",
         alignItems: "center",
+    },
+
+    continerButtons: {
+        marginTop: 40,
+        gap: 20
     },
 
     h3: {
@@ -22,7 +27,6 @@ export const styles = StyleSheet.create({
         fontSize: FONTS.body_small,
         fontFamily: FONTS.regular
     },
-
 
     lightTop: {
         position: "absolute",
@@ -39,4 +43,5 @@ export const styles = StyleSheet.create({
         bottom: -300,
         left: -300,
     },
+
 });
