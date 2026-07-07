@@ -1,0 +1,11 @@
+@import "tailwindcss";
+@import "uniwind";
+
+@theme {
+  --color-background: #211D28;
+  --color-primary: #E8900A;
+  --color-primary-2: #CF800A;
+
+  --font-regular: "Poppins_400Regular";
+  --font-bold: "Poppins_700Bold";
+}
